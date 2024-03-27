@@ -232,27 +232,3 @@
         }
     }
     empty_data();
-    // function empty_data(){
-    //     global $connection; 
-    //     if(isset($_POST['btn_empty'])){
-    //         $sql_remove_all = "DELETE FROM `tbproduct` WHERE `is_deleted` = 1";
-
-    //         $result = $connection -> query($sql_remove_all);
-
-    //         if($result){
-    //             echo '
-    //                     <script>
-    //                         $(document).ready(function(){
-    //                             swal({
-    //                                 title: "Empty Data",
-    //                                 text: "You remove all product",
-    //                                 icon: "success",
-    //                                 button: "Confirm",
-    //                             });
-    //                         })
-    //                     </script>
-    //                 ';
-    //         }
-    //     }
-    // }
-    // empty_data();
