@@ -12,13 +12,10 @@
     include '../link/icon.php';
     ?>
     <!-- link icon -->
-    
     <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
-
-
 <body>
     <div class="container d-flex justify-content-between madimi-one-regular p-4 border border-3 mt-4">
         <h2>Product's Information</h2>

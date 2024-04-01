@@ -3,7 +3,7 @@
 <?php 
     $connection = new mysqli('localhost','root','','db_etec') ;
     function add_product(){
-        global $connection; //make connection as global variable
+        global $connection; 
         if(isset($_POST['btn_add'])){
             $name     = $_POST['_name'];
             $category = $_POST['_category'];
